@@ -1,0 +1,244 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Anton';
+    src: url("../../../Dangalla UI/site fonts/Anton/Anton-Regular.ttf");
+}
+@font-face {
+    font-family: 'Dancing Script';
+    src: url("../../../Dangalla UI/site fonts/Dancing_Script/DancingScript-Regular.ttf");
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url("../../../Dangalla UI/site fonts/Exo_2/Exo2-Bold.ttf");
+}
+@font-face {
+    font-family: 'Great Vibes';
+    src: url("../../../Dangalla UI/site fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
+@font-face {
+    font-family: 'Karla';
+    src: url("../../../Dangalla UI/site fonts/Karla/Karla-Regular.ttf");
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../../Dangalla UI/site fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url("../../../Dangalla UI/site fonts/Nanum_Gothic/NanumGothic-Regular.ttf");
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url("../../../Dangalla UI/site fonts/Oswald/static/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: 'Parisienne';
+    src: url("../../../Dangalla UI/site fonts/Parisienne/Parisienne-Regular.ttf");
+}
+@font-face {
+    font-family: 'Playball';
+    src: url("../../../Dangalla UI/site fonts/Playball/Playball-Regular.ttf");
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("../../../Dangalla UI/site fonts/Raleway/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: 'ZCOOL Xiao Wei';
+    src: url("../../../Dangalla UI/site fonts/ZCOOL_XiaoWei/ZCOOLXiaoWei-Regular.ttf");
+}
+.hci_titleFont_1 {
+    font-family: 'Oswald', sans-serif;
+}
+.hci_titleFont_2 {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.hci_titleFont_3 {
+    font-family: 'Anton', sans-serif;
+}
+.hci_contentFont_1 {
+    font-family: 'Exo 2', sans-serif;
+}
+.hci_contentFont_2 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.hci_semiTitleFont_1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.hci_semiTitleFont_2 {
+    font-family: 'Raleway', sans-serif;
+}
+.hci_semiTitleFont_3 {
+    font-family: 'Karla', sans-serif;
+}
+.hci_fancyFont_1 {
+    font-family: 'Dancing Script', cursive;
+}
+.hci_fancyFont_2 {
+    font-family: 'Great Vibes', cursive;
+}
+.hci_fancyFont_3 {
+    font-family: 'Parisienne', cursive;
+}
+.hci_fancyFont_4 {
+    font-family: 'Playball', cursive;
+}
+.hci_lightFont {
+    font-weight: 400;
+}
+.hci_boldFont {
+    font-weight: 700;
+}
+.hci_black {
+    color: #000000;
+}
+.hci_white {
+    color: #ffffff;
+}
+.hci_gold {
+    color: #af820b;
+}
+.hci_largeLetters {
+    font-size: 99px;
+    line-height: 1.5;
+}
+.hci_subTitels {
+    font-size: 46px;
+    line-height: 1;
+}
+.hci_semiLargeLetters {
+    font-size: 72px;
+}
+.hci_content {
+    font-size: 18px;
+}
+.hci_spacer {
+    padding: 99px 0px;
+}
+.active {
+    opacity: 1 !important;
+    transition: ease-in-out 1s !important;
+    transition-delay: 300ms !important;
+}
+* {
+    box-sizing: border-box;
+}
+#hci_body {
+    color: #A7820B;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+h1 {
+    font-size: 36px;
+}
+#hci_navigation {
+    height: 124px;
+    width: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+}
+#hci_main_slider {
+    width: 100%;
+    position: relative;
+    top: 0%;
+    z-index: -10;
+    overflow: hidden;
+}
+#hci_catagory_corosel {
+    padding-top: 0px;
+}
+#hci_catagory {
+    overflow: hidden;
+}
+.hci_logo {
+    width: 10%;
+    height: auto;
+}
+.hci_logo > div:last-child {
+    display: none;
+}
+.hci_logo_img {
+    width: 100%;
+}
+.hci_nav_inner {
+    display: flex;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.hci_nav_outer {
+    padding: 0.921% 30px;
+}
+.hci_link_list_p1, .hci_link_list_p2 {
+    width: 44%;
+}
+.hci_links_outer {
+    display: flex;
+    float: left;
+    margin: 34.83px 0px;
+}
+.hci_link_list_p1 .hci_links_outer {
+    float: right;
+    margin-right: 64px;
+}
+.hci_link_list_p2 .hci_links_outer {
+    margin-left: 64px;
+}
+.hci_link {
+    margin: 0px 30px;
+    max-width: fit-content;
+}
+.hci_link a {
+    color: inherit;
+}
+.hci_slider_outer, .hci_slider_wrapper, .hci_slider_inner, .hci_slider_stage, .hci_slider, .hci_slidies {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+.hci_slidies {
+    opacity: 0;
+    transition: cubic-bezier(0.26, -0.82, 1, 1.01) 1300ms;
+}
+.hci_slider_dtl {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.hci_slide_inner_content {
+    padding: 4px;
+    transform: translate3d(10px, 0px, 0px);
+}
+.hci_slide_titles {
+    width: 784px;
+    height: 156px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.hci_intro_inner {
+    text-align: center;
+}
+.hci_intro_text {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.hci_intro_dtl {
+    width: 80%;
+    margin: 0px auto;
+}
+.hci_catogary_stage {
+    display: flex;
+    float: left;
+}
